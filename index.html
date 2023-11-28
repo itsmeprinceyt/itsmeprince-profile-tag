@@ -5,75 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ItsMe Prince</title>
     <link rel="icon" href="img/logo_png.png" type="image/x-icon">
-    <style>
-        body{
-    background-image: url('img/cover2.png');
-    background-size: cover;
-    margin: 0;
-    scroll-behavior: smooth;
-}
-
-#banner{
-    position: absolute;
-    top: 50%;
-    left:50%;
-    width: 220px;
-    height: 410px;
-    transform: translate(-50%,-50%);
-    background-color: rgb(255, 255, 255);
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
-    padding: 47px;
-    margin: 20px;
-    text-align: center;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
-}
-#imgg{
-    width:200px;
-    height:200px;
-    border-radius:50%;
-    overflow:hidden;
-}
-a{
-    text-decoration: none;
-    color: rgba(0, 0, 0, 0.883);
-}
-a:visited{
-    color: rgba(0, 0, 0, 0.883);
-}
-
-@media only screen and (max-width: 600px) {
-    #banner {
-        width: 80%; /* Adjust the width as needed */
-        padding: 20px; /* Adjust the padding as needed */
-        margin: 0 auto; /* Center the div horizontally */
-        left: 0;
-        right: 0;
-        transform: translate(0, -50%); /* Center the div vertically */
-    }
-}
-    </style>
+    <link rel="stylesheet" href="style.css" type="text/css">
 </head>
 <body>
+    <div class="overlay"></div>
     <div id="banner">
         <img id="imgg" src="img/logo.png" width="200" alt="image.missing" title="ItsMe Prince0">
-        <h1>ItsMe Prince</h1>
-        <p id="first">ItsMe Prince, a casual gamer who plays the game with the sole purpose to enjoy.</p>
-        <p id="second">Join him in his journey!</p>
-        
-        <img id="yt" src="img/youtube.png" width="18" alt="img.missing" title="YouTube">
-        &nbsp;&nbsp;
-        <a href="https://www.youtube.com/c/itsmeprince0" target="_blank">Subscribe</a>
-        
-        <br>
-
-        <img id="inst" src="img/instagram.png" width="17" alt="img.missing" title="Instagram">
-        &nbsp;&nbsp;
-        <a href="https://www.instagram.com/itsmeprinceyt" target="_blank">Follow</a>
-        <br>
-        
-        <img id="dc" src="img/discord.png" width="50" alt="img.missing" title="Discord">
-        &nbsp;&nbsp;
-        <a href="https://discord.gg/HgXNs4p5cx" target="_blank">Join</a>
+        <h1 style="color: #1e1e1e;">ItsMe Prince</h1>
+        <p id="first" style="color: #1e1e1e;">Hey! I'm Prince and I am a YouTuber who plays variety of games and enjoys interacting with y'all</p>
+        <p id="second" style="color: #1e1e1e;">Join me on my Journey!</p>
+        <div id="button-container">
+            <a href="https://www.youtube.com/c/itsmeprince0" target="_blank" id="block_yt">YouTube</a>
+            <a href="https://www.instagram.com/itsmeprinceyt" target="_blank" id="block_inst">Instagram</a>
+            <a href="https://discord.gg/HgXNs4p5cx" target="_blank" id="block_dc">Discord</a>
+        </div>
     </div>
 </body>
 </html>
